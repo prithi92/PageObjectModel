@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test" parallel="classes" thread-count="3">
+    <classes>
+      <class name="pom.facebook.testcases.TC007"/>
+      <class name="pom.irctc.testcases.TC006"/>
+      <class name="pom.php.testcases.TC009"/>
+      <class name="pom.irctc.testcases.TC005"/>
+      <class name="pom.irctc.testcases.TC004"/>
+      <class name="pom.irctc.testcases.TC003"/>
+      <class name="pom.irctc.testcases.TC002"/>
+      <class name="pom.irctc.testcases.TC001"/>
+      <class name="pom.panind.testcases.TC008"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
